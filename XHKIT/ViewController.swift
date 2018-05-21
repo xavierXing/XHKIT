@@ -68,7 +68,11 @@ class ViewController: UIViewController {
 //        print(UIDevice.diskSpaceFree() / Int64(1000) / Int64(1000) / Int64(1000))
         
 //        print(UIDevice.diskSpaceUesd() / Int64(1000) / Int64(1000) / Int64(1000))
+        
+//        print(Int64(UIDevice.memoryTotal()) / Int64(1000) / Int64(1000) / Int64(1000))
+        
     }
 
+    
 }
 

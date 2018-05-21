@@ -284,4 +284,11 @@ extension UIDevice {
         return used
     }
     
+    /// 获取总内存
+    class func memoryTotal() -> UInt64 {
+        return ProcessInfo.processInfo.physicalMemory
+    }
+    
+
+    
 }
