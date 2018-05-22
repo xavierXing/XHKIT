@@ -60,10 +60,11 @@
 		2A46B41520AAC57D007298D7 /* XHKITUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XHKITUITests.swift; sourceTree = "<group>"; };
 		2A46B41720AAC57D007298D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2A46B42320AAC5BB007298D7 /* XHKIT+NSString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "XHKIT+NSString.swift"; sourceTree = "<group>"; };
-		2A46B42520AAC967007298D7 /* XHKIT-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "XHKIT-Bridging-Header.h"; sourceTree = "<group>"; };
 		2A608B0520AD2ACD00355E01 /* XHKIT+UIDevice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "XHKIT+UIDevice.swift"; sourceTree = "<group>"; };
 		2A6ABD8820B26DE10069F013 /* XHKIT+UIImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "XHKIT+UIImage.swift"; sourceTree = "<group>"; };
 		2A6C4C1620B3C41B003EE3D1 /* XHKIT+UITextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "XHKIT+UITextField.swift"; sourceTree = "<group>"; };
+		2A6C4C2120B3F291003EE3D1 /* module.map */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = module.map; sourceTree = "<group>"; };
+		2A6C4C2220B3F35D003EE3D1 /* iphoneos.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = iphoneos.modulemap; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +115,7 @@
 		2A46B3F420AAC57B007298D7 /* XHKIT */ = {
 			isa = PBXGroup;
 			children = (
+				2A6C4C1E20B3F198003EE3D1 /* CommonCrypto */,
 				2A46B3F520AAC57B007298D7 /* AppDelegate.swift */,
 				2A46B3F720AAC57B007298D7 /* ViewController.swift */,
 				2A46B3F920AAC57B007298D7 /* Main.storyboard */,
@@ -121,7 +123,6 @@
 				2A46B3FE20AAC57D007298D7 /* LaunchScreen.storyboard */,
 				2A46B40120AAC57D007298D7 /* Info.plist */,
 				2A46B42320AAC5BB007298D7 /* XHKIT+NSString.swift */,
-				2A46B42520AAC967007298D7 /* XHKIT-Bridging-Header.h */,
 				2A608B0520AD2ACD00355E01 /* XHKIT+UIDevice.swift */,
 				2A6ABD8820B26DE10069F013 /* XHKIT+UIImage.swift */,
 				2A1BEAC820B2B7AE001556B3 /* XHKIT+UIView.swift */,
@@ -150,6 +151,15 @@
 			);
 			path = XHKITUITests;
 			sourceTree = "<group>";
+		};
+		2A6C4C1E20B3F198003EE3D1 /* CommonCrypto */ = {
+			isa = PBXGroup;
+			children = (
+				2A6C4C2120B3F291003EE3D1 /* module.map */,
+				2A6C4C2220B3F35D003EE3D1 /* iphoneos.modulemap */,
+			);
+			path = CommonCrypto;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -476,8 +486,10 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.xavier.XHKIT;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "XHKIT/XHKIT-Bridging-Header.h";
+				SWIFT_INCLUDE_PATHS = CommonCrypto;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_PRECOMPILE_BRIDGING_HEADER = NO;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -498,7 +510,9 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.xavier.XHKIT;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "XHKIT/XHKIT-Bridging-Header.h";
+				SWIFT_INCLUDE_PATHS = CommonCrypto;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_PRECOMPILE_BRIDGING_HEADER = NO;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

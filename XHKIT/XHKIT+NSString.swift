@@ -7,9 +7,10 @@
 //
 
 import UIKit
+import CommonCrypto
 
 extension String {
-   
+    
     //MARK: - md5加密 -
     /// md5加密
     func md5String() -> String! {
@@ -58,6 +59,7 @@ extension String {
         return String(format: sha256String as String)
     }
   
+    
     //MARK: - utf8转码 -
     /// utf8转码
     func utf8String() -> String! {
