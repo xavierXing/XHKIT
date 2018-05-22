@@ -89,6 +89,17 @@ class ViewController: UIViewController {
 //        imageView.frame = CGRect(x: 50, y: 50, width: 100, height: 100)
 //        imageView.createBlurView(style: .light)
 //        self.view.addSubview(imageView)
+        
+//        let timer = Timer.timerWithTimeInterval(seconds: 2, block: { (timer) in
+//            print("初始化  timer  \(timer)")
+//
+//        }, repeats: true)
+//        RunLoop.current.add(timer, forMode: .defaultRunLoopMode)
+//
+//        let againTimer = Timer.scheduledTimerWithTimeInterval(seconds: 2, block: { (timer) in
+//            print("初始化  againTimer  \(timer)")
+//        }, repeats: false)
+        
     }
     
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {

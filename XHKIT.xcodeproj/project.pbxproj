@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		2A1BEAC920B2B7AE001556B3 /* XHKIT+UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A1BEAC820B2B7AE001556B3 /* XHKIT+UIView.swift */; };
 		2A1BEACB20B2E3E8001556B3 /* XHKIT+UIApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A1BEACA20B2E3E8001556B3 /* XHKIT+UIApplication.swift */; };
+		2A1BEACD20B3A433001556B3 /* XHKIT+NSTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A1BEACC20B3A433001556B3 /* XHKIT+NSTimer.swift */; };
+		2A1BEAD120B3C05B001556B3 /* XHKIT+UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A1BEAD020B3C05B001556B3 /* XHKIT+UIColor.swift */; };
 		2A46B3F620AAC57B007298D7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A46B3F520AAC57B007298D7 /* AppDelegate.swift */; };
 		2A46B3F820AAC57B007298D7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A46B3F720AAC57B007298D7 /* ViewController.swift */; };
 		2A46B3FB20AAC57B007298D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A46B3F920AAC57B007298D7 /* Main.storyboard */; };
@@ -19,6 +21,7 @@
 		2A46B42420AAC5BB007298D7 /* XHKIT+NSString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A46B42320AAC5BB007298D7 /* XHKIT+NSString.swift */; };
 		2A608B0620AD2ACD00355E01 /* XHKIT+UIDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A608B0520AD2ACD00355E01 /* XHKIT+UIDevice.swift */; };
 		2A6ABD8920B26DE10069F013 /* XHKIT+UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A6ABD8820B26DE10069F013 /* XHKIT+UIImage.swift */; };
+		2A6C4C1720B3C41B003EE3D1 /* XHKIT+UITextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A6C4C1620B3C41B003EE3D1 /* XHKIT+UITextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +44,8 @@
 /* Begin PBXFileReference section */
 		2A1BEAC820B2B7AE001556B3 /* XHKIT+UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "XHKIT+UIView.swift"; sourceTree = "<group>"; };
 		2A1BEACA20B2E3E8001556B3 /* XHKIT+UIApplication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "XHKIT+UIApplication.swift"; sourceTree = "<group>"; };
+		2A1BEACC20B3A433001556B3 /* XHKIT+NSTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "XHKIT+NSTimer.swift"; sourceTree = "<group>"; };
+		2A1BEAD020B3C05B001556B3 /* XHKIT+UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "XHKIT+UIColor.swift"; sourceTree = "<group>"; };
 		2A46B3F220AAC57B007298D7 /* XHKIT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XHKIT.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A46B3F520AAC57B007298D7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2A46B3F720AAC57B007298D7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -58,6 +63,7 @@
 		2A46B42520AAC967007298D7 /* XHKIT-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "XHKIT-Bridging-Header.h"; sourceTree = "<group>"; };
 		2A608B0520AD2ACD00355E01 /* XHKIT+UIDevice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "XHKIT+UIDevice.swift"; sourceTree = "<group>"; };
 		2A6ABD8820B26DE10069F013 /* XHKIT+UIImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "XHKIT+UIImage.swift"; sourceTree = "<group>"; };
+		2A6C4C1620B3C41B003EE3D1 /* XHKIT+UITextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "XHKIT+UITextField.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +126,9 @@
 				2A6ABD8820B26DE10069F013 /* XHKIT+UIImage.swift */,
 				2A1BEAC820B2B7AE001556B3 /* XHKIT+UIView.swift */,
 				2A1BEACA20B2E3E8001556B3 /* XHKIT+UIApplication.swift */,
+				2A1BEACC20B3A433001556B3 /* XHKIT+NSTimer.swift */,
+				2A1BEAD020B3C05B001556B3 /* XHKIT+UIColor.swift */,
+				2A6C4C1620B3C41B003EE3D1 /* XHKIT+UITextField.swift */,
 			);
 			path = XHKIT;
 			sourceTree = "<group>";
@@ -277,7 +286,10 @@
 				2A1BEACB20B2E3E8001556B3 /* XHKIT+UIApplication.swift in Sources */,
 				2A608B0620AD2ACD00355E01 /* XHKIT+UIDevice.swift in Sources */,
 				2A46B42420AAC5BB007298D7 /* XHKIT+NSString.swift in Sources */,
+				2A1BEACD20B3A433001556B3 /* XHKIT+NSTimer.swift in Sources */,
+				2A6C4C1720B3C41B003EE3D1 /* XHKIT+UITextField.swift in Sources */,
 				2A6ABD8920B26DE10069F013 /* XHKIT+UIImage.swift in Sources */,
+				2A1BEAD120B3C05B001556B3 /* XHKIT+UIColor.swift in Sources */,
 				2A1BEAC920B2B7AE001556B3 /* XHKIT+UIView.swift in Sources */,
 				2A46B3F820AAC57B007298D7 /* ViewController.swift in Sources */,
 				2A46B3F620AAC57B007298D7 /* AppDelegate.swift in Sources */,
