@@ -63,8 +63,7 @@
 		2A608B0520AD2ACD00355E01 /* XHKIT+UIDevice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "XHKIT+UIDevice.swift"; sourceTree = "<group>"; };
 		2A6ABD8820B26DE10069F013 /* XHKIT+UIImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "XHKIT+UIImage.swift"; sourceTree = "<group>"; };
 		2A6C4C1620B3C41B003EE3D1 /* XHKIT+UITextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "XHKIT+UITextField.swift"; sourceTree = "<group>"; };
-		2A6C4C2120B3F291003EE3D1 /* module.map */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = module.map; sourceTree = "<group>"; };
-		2A6C4C2220B3F35D003EE3D1 /* iphoneos.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = iphoneos.modulemap; sourceTree = "<group>"; };
+		2A87FE7D20B53B5300400376 /* module.map */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = module.map; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,8 +154,7 @@
 		2A6C4C1E20B3F198003EE3D1 /* CommonCrypto */ = {
 			isa = PBXGroup;
 			children = (
-				2A6C4C2120B3F291003EE3D1 /* module.map */,
-				2A6C4C2220B3F35D003EE3D1 /* iphoneos.modulemap */,
+				2A87FE7D20B53B5300400376 /* module.map */,
 			);
 			path = CommonCrypto;
 			sourceTree = SOURCE_ROOT;
@@ -489,7 +487,7 @@
 				SWIFT_INCLUDE_PATHS = CommonCrypto;
 				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_PRECOMPILE_BRIDGING_HEADER = NO;
+				SWIFT_PRECOMPILE_BRIDGING_HEADER = YES;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -512,7 +510,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_INCLUDE_PATHS = CommonCrypto;
 				SWIFT_OBJC_BRIDGING_HEADER = "";
-				SWIFT_PRECOMPILE_BRIDGING_HEADER = NO;
+				SWIFT_PRECOMPILE_BRIDGING_HEADER = YES;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
